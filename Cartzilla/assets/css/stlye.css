@@ -1,0 +1,583 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "inter-regular";
+}
+
+body {
+  padding: 100px 0px;
+}
+
+
+/*********** =========Font Family========== ***********/
+
+@font-face {
+  font-family: "inter-bold";
+  src: url(../fonts//inter-bold.ttf);
+
+  /* width 700  */
+}
+
+@font-face {
+  font-family: "inter-semibold";
+  src: url(../fonts/inter-semibold.ttf);
+
+  /* width 600  */
+}
+
+@font-face {
+  font-family: "inter-medium";
+  src: url(../fonts/inter-medium.ttf);
+
+  /* width 500  */
+}
+
+@font-face {
+  font-family: "inter-regular";
+  src: url(../fonts/inter-regular.ttf);
+
+  /* width 400  */
+}
+
+/*********** =========Font Family========== ***********/
+/*********** =========variables========== ***********/
+
+:root {
+  --copyright-color: #5B697E;
+  --discount-color: #f03d3d;
+  --primary-color: #F55266;
+  --warning-color: #FC9231;
+  --font-color: #9CA3AF;
+  --new-color: #2F6ED5;
+  --black-color: #000;
+  --white-color: #fff;
+  --gray-100: #EEF1F6;
+  --gray-200: #E0E5EB;
+  --gray-300: #CAD0D9;
+  --gray-400: #9CA3AF;
+  --gray-500: #F5F7FA;
+  --gray-600: #4E5562;
+  --gray-700: #333D4C;
+  --gray-800: #222934;
+  --gray-900: #181D25;
+}
+
+/*********** =========variables========== ***********/
+/*********** =========Headphone Section Starts========== ***********/
+
+.promax {
+  background: linear-gradient(to right, #adcbee, #e7f0fd);
+  border-radius: 12px;
+}
+
+.promax h1 {
+  font-size: 56px;
+  font-family: 'inter-bold';
+}
+
+.headimg img {
+  width: 450px;
+}
+
+.feel-quality {
+  padding: 100px 0px 0px 80px;
+}
+
+.all-btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--white-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.all-btn:hover {
+  background-color: var(--white-color);
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*********** =========Headphone Section Ends========== ***********/
+/*********** =========Information Section Starts========== ***********/
+
+.info-icons {
+  background-color: var(--gray-500);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-icons img {
+  width: 30px;
+}
+
+.info-details {
+  font-size: 16px;
+}
+
+.info-main {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.change-color {
+  color: var(--gray-600);
+}
+
+.info-div {
+  margin-top: 50px;
+}
+
+.all-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.d-flex {
+  justify-content: space-around;
+  width: 100%;
+}
+
+/*********** =========Information Section Ends========== ***********/
+/*********** =========New-Arivals Section Starts========== ***********/
+
+.new-arival-heading {
+  font-family: "inter-semibold";
+  font-size: 28px;
+  margin-top: 40px;
+}
+
+.macbook {
+  background-image: url(../images/macbook-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  width: 450px;
+  height: 570px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 50px;
+  color: var(--white-color);
+  position: relative
+}
+
+.macbook img {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  width: 320px;
+}
+
+.macbook button {
+  font-size: 14px;
+}
+
+.macbook h2 {
+  font-family: "inter-bold";
+  font-size: 60px;
+}
+
+.all-products {
+  display: flex;
+  gap: 50px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.product h3 {
+  font-size: 20px;
+  font-family: "inter-semibold";
+}
+
+.product img {
+  width: 140px;
+}
+
+.star-rating {
+  color: var(--warning-color);
+  font-size: 16px;
+}
+
+.star-rating span {
+  color: var(--font-color);
+}
+
+.product-list {
+  display: flex;
+  gap: 50px;
+}
+
+.checked span{
+  text-decoration: line-through;
+  color: var(--font-color);
+  margin-left: 5px;
+}
+
+/*********** =========New-Arivals Section Ends========== ***********/
+/*********** =========Tranding-Product Section Starts========== ***********/
+
+.main-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.main-view button {
+  border: none;
+  background-color: var(--white-color);
+}
+
+.main-full-card {
+  border: none;
+  font-family: "inter-medium";
+}
+
+.all-card-info h5{
+  font-family: "inter-bold";
+  font-size: 20px;
+}
+
+.h5-span{
+  font-size: 14px;
+  color: var(--font-color);
+  text-decoration: line-through;
+}
+
+.cart {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 12px;
+  background-color: var(--gray-100);
+}
+
+.cart a {
+  color: var(--black-color);
+}
+
+.h5-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.discount {
+  padding: 0px 8px;
+  color: var(--white-color);
+  background-color: var(--discount-color);
+  border-radius: 4px;
+}
+
+.new {
+  padding: 0px 8px;
+  color: var(--white-color);
+  background-color: var(--new-color);
+  border-radius: 4px;
+}
+
+.top-discount-info {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 2%;
+}
+
+.three-dots a{
+  color: var(--white-color);
+}
+
+.discount-and-menu {
+  position: relative;
+}
+
+.down-row {
+  margin-top: 24px;
+}
+
+/*********** =========Tranding-Product Section Ends========== ***********/
+/*********** =========Media Query Starts========== ***********/
+
+@media only screen and (max-width: 1200px) {
+
+  /*********** =========Headphone Section Starts========== ***********/
+
+  .promax h1 {
+    font-size: 45px;
+  }
+
+  .headimg img {
+    width: 350px;
+  }
+
+  /*********** =========Headphone Section Ends========== ***********/
+  /*********** =========Information Section Starts========== ***********/
+
+  .all-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /*********** =========Information Section Ends========== ***********/
+  /*********** =========New-Arivals Section Starts========== ***********/
+
+  .macbook {
+    background-image: url(../images/macbook-bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 460px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 50px;
+    color: var(--white-color);
+    position: relative
+  }
+  
+  .macbook img {
+    position: absolute;
+    top: 6%;
+    left: 9%;
+    width: 250px;
+  }
+  
+  .all-products {
+    gap: 20px;
+  }
+
+  .product img {
+    width: 110px;
+  }
+
+
+  .product-list {
+    gap: 0px;
+  }
+
+  .star-rating {
+    font-size: 12px;
+  }
+
+  /*********** =========New-Arivals Section Ends========== ***********/
+
+}
+
+@media only screen and (max-width: 992px) {
+
+  /*********** =========New-Arivals Section Starts========== ***********/
+
+  .all-products {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .product-list {
+    align-items: center;
+  }
+
+  /*********** =========New-Arivals Section Ends========== ***********/
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  /*********** =========Headphone Section Starts========== ***********/
+
+  .headphone {
+    text-align: center;
+  }
+
+  .feel-quality {
+    padding: 80px 0px 0px 0px;
+  }
+
+  /*********** =========Headphone Section Ends========== ***********/
+  /*********** =========Information Section Starts========== ***********/
+
+  .all-info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .info-div {
+    margin-top: 40px;
+  }
+
+  .info-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /*********** =========Information Section Ends========== ***********/
+  /*********** =========New-Arivals Section Starts========== ***********/
+
+  .product-list {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .product {
+    margin-bottom: 16px;
+  }
+
+  /*********** =========New-Arivals Section Ends========== ***********/
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  /********** =========Headphone Section Starts========== **********/
+
+  .promax h1 {
+    font-size: 34px;
+  }
+
+  .headimg img {
+    width: 250px;
+  }
+
+  /*********** =========Headphone Section Ends========== ***********/
+  /*********** =========Information Section Starts========== ***********/
+
+  .info-icons {
+    background-color: var(--gray-500);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-icons img {
+    width: 23px;
+  }
+
+  .info-details {
+    font-size: 14px;
+  }
+
+  /*********** =========Information Section Ends========== ***********/
+
+}
+
+@media only screen and (max-width: 425px) {
+
+  /*********** =========Information Section Starts========== ***********/
+
+  .info-icons {
+    background-color: var(--gray-500);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-icons img {
+    width: 23px;
+  }
+
+  .info-details {
+    font-size: 13px;
+  }
+
+  /*********** =========Information Section Ends========== ***********/
+  /*********** =========New-Arivals Section Starts========== ***********/
+
+  .macbook {
+    width: 295px;
+    height: 430px;
+    border-radius: 12px;
+    padding-bottom: 40px;
+  }
+
+  .macbook img {
+    position: absolute;
+    top: 9%;
+    left: 7%;
+    width: 230px;
+  }
+  
+  .macbook button {
+    font-size: 14px;
+  }
+  
+  .macbook h2 {
+    font-family: "inter-bold";
+    font-size: 40px;
+  }
+
+  .product-tag {
+    font-size: 13px;
+  }
+
+  .product h3 {
+    font-size: 16px;
+  }
+
+  .new-arival-heading {
+    font-size: 23px;
+  }
+
+  /*********** =========New-Arivals Section Ends========== ***********/
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  /*********** =========Headphone Section Starts========== ***********/
+
+  .promax h1 {
+    font-size: 34px;
+  }
+
+  .headimg img {
+    width: 250px;
+  }
+
+  /*********** =========Headphone Section Ends========== ***********/
+
+}
+
+/*********** =========Media Query Ends========== ***********/
